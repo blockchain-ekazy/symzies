@@ -1,0 +1,530 @@
+@font-face {
+  font-family: "Chunky";
+  src: url("../Fonts/ChunkyTownDemo-wzRP.otf");
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Chunky";
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.RRR {
+  padding-top: 40px;
+}
+.RRRt {
+  padding-top: 50px;
+}
+
+.animate__fadeInLeft {
+  --animate-duration: 2s;
+}
+
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
+.animate__slideInDown {
+  --animate-duration: 2s;
+}
+
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
+
+.rotate {
+  animation: rotation 8s infinite linear;
+  border-radius: 500px;
+  max-width: 100%;
+  width: 500px !important;
+  margin: auto !important;
+  display: block;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.bnl {
+  padding-top: 40px;
+}
+
+.ttt {
+  width: 120px !important;
+}
+.ttt1 {
+  width: 120px !important;
+  top: 230px;
+  position: absolute;
+}
+
+.bor {
+  margin-top: -180px;
+}
+.vk {
+  margin-top: -80px;
+  padding-bottom: 35px;
+}
+
+.jgt {
+  padding-top: 150px;
+}
+.wel5 {
+  font-size: 40px;
+  font-weight: 100;
+  padding-top: 90px;
+  color: white;
+}
+
+.hy {
+  color: #000;
+  font-weight: 400;
+  font-size: 20px !important;
+}
+.ay {
+  color: white;
+  font-size: 16px;
+}
+.xc {
+  color: white;
+  font-size: 14px;
+}
+.tew {
+  color: #000;
+  width: 75px;
+  background-color: black;
+  height: 3px;
+}
+.tew1 {
+  color: white;
+  width: 820px;
+  background-color: white;
+}
+.ggg {
+  padding-top: 40px;
+  padding-bottom: 90px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+
+footer {
+  background: #010101;
+}
+.uu {
+  color: white;
+}
+.uu:hover {
+  color: #fa7399;
+}
+.foo {
+  background-color: white;
+  width: 10px;
+}
+.gh1 {
+  max-width: 100%;
+  width: 60px;
+}
+.dist {
+  background-color: #727ad1;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  font-size: 13px;
+  color: white;
+}
+.welt {
+  color: #fa7399;
+  font-size: 45px;
+  font-weight: 100;
+}
+.wel11 {
+  color: #ff64c6;
+  font-size: 30px;
+  font-weight: 100;
+  padding-top: 90px;
+}
+.nftbox1 {
+  background-color: #4759ec;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+.nftbox2 {
+  background-color: #4759ec;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 356px;
+}
+.nftbox3 {
+  background-color: #4759ec;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 48px;
+  padding-bottom: 398px;
+}
+.pha1 {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #dbdc7e;
+  font-size: 25px;
+  padding-top: 40px;
+}
+.bo {
+  border-radius: 7px;
+}
+.mko {
+  font-size: 13px;
+}
+
+.rot {
+  padding-top: 80px;
+}
+.lin {
+  color: #4652d1;
+}
+.cmd {
+  margin-top: -35px !important;
+}
+.ktop {
+  margin-top: -13px;
+}
+.ktop1 {
+  margin-top: -10px;
+}
+.foot {
+  width: 100px !important;
+}
+
+.linko {
+  font-size: 16px;
+  color: white;
+}
+.linko:hover {
+  color: #fa7399;
+}
+
+.copy {
+  color: #b4b4b4;
+  font-size: 14px;
+  padding-right: 120px;
+}
+
+.tit {
+  color: #4652d1;
+}
+
+/* //////////////////////////////////////////////////////////////////// */
+img {
+  max-width: 100%;
+}
+.container {
+  max-width: 1440px;
+}
+.logo {
+  height: 80px;
+}
+p,
+ul {
+  font-size: 14px;
+  line-height: 28px;
+  font-family: "Poppins";
+}
+.yellow {
+  color: #dbdc7e;
+}
+.btn2 {
+  font-family: "Chunky";
+  font-size: 20px;
+  color: white;
+  background-color: #242424;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: #242424;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.dis1 i {
+  font-size: 25px;
+}
+.dis:hover,
+.dis1:hover,
+.sql:hover {
+  color: #fa7399 !important;
+}
+.pink {
+  color: #fa7399 !important;
+}
+.dis1 {
+  background-color: #010101;
+  border: none;
+  padding: 10px;
+  padding-right: 20px;
+  border-radius: 5px;
+  font-size: 13px;
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 170px;
+  justify-content: center;
+}
+
+.nav-item {
+  font-size: 16px;
+  font-family: "poppins";
+  color: white !important;
+}
+.nav-link {
+  color: white !important;
+}
+.nav-link:hover {
+  color: #fa7399 !important;
+}
+.text-small {
+  font-size: 0.9rem;
+}
+.bluebg {
+  background-color: #4759ec;
+}
+.wel {
+  color: #fa7399;
+  font-size: 64px;
+  font-weight: 100;
+  text-shadow: 0 5px 5px #00000040;
+  line-height: 72px;
+}
+.green {
+  color: #26ad2a;
+}
+.wel1 {
+  color: #ff64c6;
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 100;
+}
+.welll1 {
+  color: #ff64c6;
+  font-size: 36px;
+  line-height: 45px;
+  text-shadow: 0 5px 5px #00000040;
+  font-weight: 100;
+}
+.dotts {
+  background-image: url("../Images/dots.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.heading {
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  white-space: pre;
+}
+.roadmap ul li,
+.roadmapM ul li {
+  /* list-style-image: url("../Images/tick.png"); */
+  background: url("../Images/tick.png");
+  background-size: 21px;
+  background-position: 0% 15%;
+  background-repeat: no-repeat;
+  list-style: none;
+  padding-left: 30px;
+}
+.roadmap {
+  background-image: url(../Images/14.png);
+  background-position: 50% 60%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+ul {
+  padding: 0;
+}
+.CCC {
+  background-image: url("../Images/16.png");
+  background-repeat: no-repeat;
+  background-position: 0% 30%;
+  /* padding-bottom: 250px; */
+  background-size: cover;
+}
+.dotts1 {
+  background-image: url("../Images/dots-2.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+.spaced {
+  padding-top: 280px;
+  padding-bottom: 280px;
+  padding-left: 35px !important;
+}
+.DDD {
+  background-image: url("../Images/team.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-position: center 8vw;
+}
+.team {
+  width: 248px !important;
+  margin: auto;
+  display: block;
+  border-radius: 150px;
+}
+.DDD p {
+  padding: 0 25px;
+}
+.FFF {
+  background-color: #010101;
+}
+.divider {
+  height: 14px !important;
+  background-image: url(../Images/24.png);
+  background-position: center;
+  background-size: 100%;
+}
+.sql {
+  font-size: 24px;
+  color: white;
+  background-color: #242424;
+  padding: 7px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.DDD {
+  overflow: hidden;
+}
+.dis-bg {
+  background-color: #5865f2;
+}
+@media screen and (max-width: 1320px) {
+  .wel {
+    font-size: 42px;
+    line-height: 44px;
+  }
+  p,
+  ul {
+    font-size: 14px;
+    line-height: 1.7em;
+  }
+}
+
+.mbl #mob-navbar {
+  height: 100vh;
+}
+.mbl .collapse {
+  display: flex;
+  position: fixed;
+  left: 100%;
+  top: 0;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh !important;
+  transition-duration: 0.2s;
+}
+.mbl .collapse.show {
+  left: 0;
+}
+.mbl .nav-link {
+  color: #ff64c6 !important;
+  font-size: 42px;
+  line-height: 80px;
+  font-weight: 100;
+  font-family: "Chunky";
+}
+.mbl .cross {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  cursor: pointer;
+}
+.z-index-100 {
+  z-index: 100;
+}
+.react-slideshow-container .nav {
+  margin: 0 !important;
+  right: 105px;
+  position: relative;
+  cursor: pointer;
+  font-size: 25px;
+  bottom: -25px;
+  position: absolute;
+}
+.react-slideshow-container .nav:first-of-type {
+  left: 105px;
+}
+.pinkbg {
+  background-color: #f6bcb9;
+}
+.whitearrows .slick-arrow:before {
+  color: white !important;
+}
+.overflow {
+  overflow: hidden;
+}
+.text-light {
+  color: #b4b4b4 !important;
+}
+.slick-prev,
+.slick-next {
+  left: 20% !important;
+  bottom: -30px !important;
+  top: auto !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 20% !important;
+  left: auto !important;
+}
+.slick-next::before,
+.slick-prev::before {
+  font-size: 25px !important;
+  content: "\f177";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 600;
+  color: #ff64c6;
+}
+.slick-next::before {
+  content: "\f178";
+}
